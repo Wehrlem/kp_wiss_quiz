@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'ColaborateMediumRegular';
+    src: url('font/colabmed-webfont.eot');
+    src: url('font/colabmed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/colabmed-webfont.woff') format('woff'),
+         url('font/colabmed-webfont.ttf') format('truetype'),
+         url('font/colabmed-webfont.svg#ColaborateMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#main-wrapper{
+	width:690px;
+}
+#kpmg_high_title{
+	font-family:"ColaborateMediumRegular";
+	padding-left:40px;
+	padding-top:20px;
+	font-size:28px;
+background-image: linear-gradient(bottom, rgb(109,115,115) 0%, rgb(223,235,235) 44%, rgb(250,250,250) 73%);
+background-image: -o-linear-gradient(bottom, rgb(109,115,115) 0%, rgb(223,235,235) 44%, rgb(250,250,250) 73%);
+background-image: -moz-linear-gradient(bottom, rgb(109,115,115) 0%, rgb(223,235,235) 44%, rgb(250,250,250) 73%);
+background-image: -webkit-linear-gradient(bottom, rgb(109,115,115) 0%, rgb(223,235,235) 44%, rgb(250,250,250) 73%);
+background-image: -ms-linear-gradient(bottom, rgb(109,115,115) 0%, rgb(223,235,235) 44%, rgb(250,250,250) 73%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(109,115,115)),
+	color-stop(0.44, rgb(223,235,235)),
+	color-stop(0.73, rgb(250,250,250))
+);
+
+	height:50px;
+}
+
+#kpmg-bottom-box-left{
+		float:left;
+	display:block;
+	height:115px;
+	width:320px;
+	margin-left:40px;
+	
+}
+#kpmg-bottom-box-right{
+		float:right;
+	display:block;
+	height:115px;
+	width:320px;
+	margin-right:40px;
+
+	}
+.kpmg-bottom-title{
+	color:#000;
+	font-size:24px;
+	width:320px;
+	height:40px;
+	display:block;
+	border-bottom:1px solid #ccc;
+	font-family:"ColaborateMediumRegular";
+	}
+.kpmg-bottom-box-title{
+	color:#00ADE7;
+	font-size:18px;
+		font-family:"ColaborateMediumRegular";
+	margin-top:5px;
+}
+#kpmg-bottom-box{
+	height:250px;
+	display:block;
+	margin-top:30px;
+}
+
+#kpmg-bottom-box .kpmg-bottom-title{
+	color:#000;
+	font-size:20px;
+	width:320px;
+	height:40px;
+	display:block;
+	border-bottom:1px solid #ccc;
+}
+#kpmg-bottom-box .kpmg-bottom-crown{
+	background:url('images/krone.png') no-repeat;
+	background-position:center;
+	height:30px;
+	width:320px;
+	margin-top:20px;
+	text-align:center;
+}
+#kpmg-bottom-box .kpmg-bottom-crown td{
+		font-family:"ColaborateMediumRegular";
+}
+
+.kpmg-bottom-box-title{
+	color:#00ADE7;
+	font-size:14px;
+	font-family:"ColaborateMediumRegular";
+	margin-bottom:-3px;
+
+}
+
+#kpmg-bottom-box-left{
+		float:left;
+	display:block;
+	height:115px;
+	width:280px;
+}
+#kpmg-bottom-box-right{
+		float:right;
+	display:block;
+	height:115px;
+	width:320px;
+	}
+#kpmg-bottom-box-left-under{
+	float:left;
+	display:block;
+	height:155px;
+	width:320px;
+	background:url('images/podest.png') no-repeat bottom;
+	padding-top:35px;
+	color:#E0E0E0;
+	
+}
+#kpmg-bottom-box-right-under{
+	float:right;
+	display:block;
+	height:155px;
+	width:320px;
+	padding-top:35px;
+	background:url('images/podest.png') no-repeat bottom;
+	color:#E0E0E0;
+	}
+.kpmg-bottom-box-title-felf{
+			color:#00ADE7;
+	font-size:18px;
+		font-family:"ColaborateMediumRegular";
+	margin-top:5px;
+	margin-bottom:-37px;
+	}
+#kpmg-bottom-final{
+	background-image: linear-gradient(top, rgb(235,235,235) 0%, rgb(255,255,255) 100%);
+background-image: -o-linear-gradient(top, rgb(235,235,235) 0%, rgb(255,255,255) 100%);
+background-image: -moz-linear-gradient(top, rgb(235,235,235) 0%, rgb(255,255,255) 100%);
+background-image: -webkit-linear-gradient(top, rgb(235,235,235) 0%, rgb(255,255,255) 100%);
+background-image: -ms-linear-gradient(top, rgb(235,235,235) 0%, rgb(255,255,255) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, rgb(235,235,235)),
+	color-stop(1, rgb(255,255,255))
+);
+height:320px;
+margin-top:50px;
+border-top:1px solid #ccc;
+}
+#kpmg-bottom-info{
+	padding-left:40px;padding-right:30px;
+		font-family:"ColaborateMediumRegular";
+
+}
+	

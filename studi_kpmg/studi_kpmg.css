@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'ColaborateMediumRegular';
+    src: url('font/colabmed-webfont.eot');
+    src: url('font/colabmed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/colabmed-webfont.woff') format('woff'),
+         url('font/colabmed-webfont.ttf') format('truetype'),
+         url('font/colabmed-webfont.svg#ColaborateMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.page-quiz, .page-quiz-game, .page-quiz-saved{
+	background:url('images/header.png'), url('images/background.jpg');
+	background-position:center 200px, 0 0; 
+    background-repeat:no-repeat, repeat ;
+}
+
+#kpmg-frame{
+	height:1000px;
+	width:960px;
+}
+
+
+#kpmg-front{
+	width:760px;
+    
+}
+#kpmg-front-frame{
+	width:760px;
+    
+}
+#kpmg-front-container{
+	margin-left:-190px;
+	font-family:"ColaborateMediumRegular";
+	
+}
+#kpmg-front-container-pic{
+	display:block;
+	height:300px;
+}
+#kpmg-front-container-pic-second
+{
+	display:block;
+	height:415px;
+}
+#kpmg-front-listing{
+	display:block;
+	height:400px;
+	border-bottom:1px solid #ccc;
+}
+#kpmg-front-text{
+	float:left;
+	width:680px;
+}
+#kpmg-front-text p{
+	font-family:"ColaborateMediumRegular";
+}
+#kpmg-front-box{
+	float:right;
+	width:300;
+}
+.kpmg_teil img{
+
+	margin-top:20px;
+	box-shadow: 0 0 3px #000000;
+	-moz-box-shadow: 1 0  3px #000000;}
+	
+
+
+#kpmg-front-box{
+	display:block;
+	width:200;
+	height:300;
+	margin-top:10px;
+	border:1px solid #e2e2e2;
+	-moz-border-radius: 7px;
+    border-radius: 7px;
+ 	background: #fefefe;
+    /* Mozilla: */
+    background: -moz-linear-gradient(top, #f9f9f9, #fefefe);
+    /* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, left bottom, from(#f9f9f9), to(#f3f2f2));
+    /* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#f9f9f9', EndColorStr='#fefefe', GradientType=0);
+	box-shadow: 0 0 3px #000000;
+	-moz-box-shadow: 1 0  3px #000000;
+	padding:15px;
+}
+.kpmg_right_top_title{
+	background:url('images/stern.png') left no-repeat;
+	text-indent: 2em;
+	font-weight:bold;
+	color:#0093C9;
+}
+#kpmg-front-box-left{
+	float:left;
+	display:block;
+	height:115px;
+	width:280px;
+	background:url('images/phaseBg.jpg') no-repeat;
+	padding-left:120px;
+	padding-top:35px;
+	color:#E0E0E0;
+	font-size:24px;
+		box-shadow: 0 0 3px #000000;
+	-moz-box-shadow: 1 0  3px #000000;
+	/*text-shadow: 1px 1px 0px #ccc;*/
+	line-height: 0.5;
+}
+#kpmg-front-box-right{
+	float:right;
+	display:block;
+	height:115px;
+	width:280px;
+		padding-left:120px;
+	padding-top:35px;
+	background:url('images/usersBg.jpg') no-repeat;
+	box-shadow: 0 0 3px #000000;
+	-moz-box-shadow: 1 0  3px #000000;
+	/*text-shadow: 1px 1px 0px #ccc;*/
+	color:#E0E0E0;
+	}
+
+#kpmg-medium-box{
+	border-bottom:1px solid #ccc;
+	height:150px;
+	display:block;
+}
+#kpmg-bottom-box-left{
+		float:left;
+	display:block;
+	height:115px;
+	width:280px;
+}
+	#kpmg-bottom-box-right{
+		float:right;
+	display:block;
+	height:115px;
+	width:400px;
+	}
+#kpmg-bottom-box-left-under{
+	float:left;
+	display:block;
+	height:115px;
+	width:400px;
+	background:url('images/podest.png') no-repeat bottom;
+	padding-top:35px;
+	color:#E0E0E0;
+	
+}
+#kpmg-bottom-box-right-under{
+	float:right;
+	display:block;
+	height:115px;
+	width:400px;
+	
+	padding-top:35px;
+	background:url('images/podest.png') no-repeat bottom;
+	
+	color:#E0E0E0;
+	}
+
+#kpmg-bottom-box{
+	border-top:1px solid #ccc;
+	height:250px;
+	display:block;
+	margin-top:30px;
+}
+
+#kpmg-bottom-box .kpmg-bottom-title{
+	color:#000;
+	font-size:24px;
+	width:400px;
+	height:40px;
+	display:block;
+	border-bottom:1px solid #ccc;
+}
+#kpmg-bottom-box .kpmg-bottom-crown{
+	background:url('images/krone.png') no-repeat;
+	background-position:center;
+	height:30px;
+	width:400px;
+	margin-top:20px;
+	text-align:center;
+}
+#kpmg-bottom-box .kpmg-bottom-crown td{
+		font-family:"ColaborateMediumRegular";
+}
+
+.kpmg-bottom-box-title{
+	color:#00ADE7;
+	font-size:18px;
+	font-family:"ColaborateMediumRegular";
+	margin-top:10px;
+}
+#kpmg-bottom-box-left table{
+	height:150px;
+}
+.kpmg_second{
+	padding-top:5px;
+}
+#studi-kpmg-uni-form{
+	width:450px;
+}
+.page-quiz .kpmg_highscore_link {
+	
+}
+.page-quiz .kpmg_highscore_link a{
+	color:#00ADE7;
+	text-decoration:underline;
+
+}
+	

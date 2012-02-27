@@ -1,0 +1,104 @@
+<?php
+
+/**
+ * Implemenation of hook_schema()
+ */
+function studi_kpmg_schema() {
+  $schema = array();
+
+  $schema['studi_kpmg_points'] = array(
+    'fields' => array(
+	  'kid' => array(
+        'description' => t('The table ID of the Ranglist.'),
+        'type'          => 'serial',
+        'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+      'uid' => array(
+        'description' => t('The user ID of the saved search.'),
+        'type' => 'int',
+         'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+      'points' => array(
+        'description' => t('The actual score of the user'),
+        'type' => 'int',
+        'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+      'dates' => array(
+        'description' => t('Date to see the progress'),
+         'type' => 'int',
+         'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+          ),
+    'primary key' => array('kid'),
+  );
+  
+   $schema['studi_kpmg_uni'] = array(
+    'fields' => array(
+	  'pid' => array(
+        'description' => t('The table ID of the Ranglist.'),
+        'type'          => 'serial',
+        'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+      'uid' => array(
+        'description' => t('The user ID of the saved search.'),
+        'type' => 'int',
+         'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+      'points' => array(
+        'description' => t('The actual score of the user'),
+        'type' => 'int',
+         'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+      'dates' => array(
+        'description' => t('Date to see the progress'),
+        'type' => 'int',
+         'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+          ),
+    'primary key' => array('pid'),
+  );
+   $schema['studi_kpmg_player'] = array(
+    'fields' => array(
+	  'uid' => array(
+        'description' => t('The table ID of the users'),
+        'type'          => 'serial',
+        'not null'      => TRUE,
+        'unsigned'      => TRUE,
+      ),
+      'uni' => array(
+        'description'   => 'University',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 'user'
+      ),
+      
+          ),
+    'primary key' => array('uid'),
+  );
+
+
+  return $schema;
+}
+
+/**
+ * Implmentation of hook_install().
+ */
+function studi_kpmg_install() {
+  drupal_install_schema('studi_kpmg');
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function studi_kpmg_uninstall() {
+  drupal_uninstall_schema('studi_kpmg');
+}

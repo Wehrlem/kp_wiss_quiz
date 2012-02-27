@@ -1,0 +1,5 @@
+; $Id: pathauto.info,v 1.4.2.2 2010/03/14 05:23:36 davereid Exp $
+name = Studie KMPG Quiz
+description = Quiz Integration 
+package = Studizone
+core = 6.x
